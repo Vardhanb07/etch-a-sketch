@@ -1,21 +1,8 @@
+body {
+    background-color: #ecd5d5;
+}
 .container {
-    display : flex;
-    flex-direction: row;
-    gap : 10px;
-    justify-content: center;
-    height : 100vh;
-    align-items: center;
-}
-
-.conatiner > div {
-    display : flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.container > div > div {
-    background: #000;
-    width : 40px;
-    height: 40px;
-    margin-bottom: 10px;
+    height : 100px;
+    width: 100px;
+    background-color: #fff;
 }
