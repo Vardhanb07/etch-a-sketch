@@ -2,7 +2,17 @@ body {
     background-color: #ecd5d5;
 }
 .container {
-    height : 100px;
-    width: 100px;
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+}
+.head { 
+    display : flex;
+    gap : 10px;
+}
+.head > div {
+    width : 30px;
+    height : 30px;
     background-color: #fff;
+
 }
