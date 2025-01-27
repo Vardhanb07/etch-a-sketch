@@ -3,7 +3,9 @@ function generateContainers(container){
         let div = document.createElement('div');
         div.classList.add('head');
         for(let j = 0; j < 16; j++){
-            div.appendChild((document.createElement('div')));
+            let element = document.createElement('div');
+            element.classList.add('element');
+            div.appendChild(element);
         }
         container.appendChild(div);
     }
@@ -12,3 +14,11 @@ function generateContainers(container){
 const container = document.querySelector('.container');
 
 generateContainers(container);
+
+const elements = document.querySelectorAll('.element');
+
+elements.forEach((element) => {
+    element.addEventListener('mouseover', () => {
+        element.style.backgroundColor = 'black';
+    })
+});
