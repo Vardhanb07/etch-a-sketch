@@ -1,18 +1,23 @@
 body {
     background-color: #ecd5d5;
+    margin : 0px;
+    padding : 0px;
 }
 .container {
     display : flex;
     flex-direction: column;
-    gap : 10px;
+    gap : 2px;
+    justify-content: center;
+    align-items: center;
+    border : 4px solid white;
+    height : 100vh;
 }
 .head { 
     display : flex;
-    gap : 10px;
+    gap : 2px;
 }
 .head > div {
     width : 30px;
     height : 30px;
     background-color: #fff;
-
 }
