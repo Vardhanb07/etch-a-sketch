@@ -11,6 +11,11 @@ function generateContainers(container){
     }
 }
 
+function randomColorGenerator(){
+    const randomColor = (Math.floor(Math.random()*16777215)).toString(16);
+    return '#' + randomColor;
+}
+
 const container = document.querySelector('.container');
 
 generateContainers(container);
@@ -19,6 +24,6 @@ const elements = document.querySelectorAll('.element');
 
 elements.forEach((element) => {
     element.addEventListener('mouseover', () => {
-        element.style.backgroundColor = 'black';
+        element.style.backgroundColor = randomColorGenerator();
     })
 });
