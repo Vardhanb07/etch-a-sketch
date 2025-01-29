@@ -27,3 +27,11 @@ elements.forEach((element) => {
         element.style.backgroundColor = randomColorGenerator();
     })
 });
+
+const reset = document.querySelector('.reset');
+
+reset.addEventListener('click', () => {
+    elements.forEach((element) => {
+        element.style.backgroundColor = '#fff';
+    });
+});
