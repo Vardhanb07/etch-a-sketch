@@ -35,3 +35,13 @@ reset.addEventListener('click', () => {
         element.style.backgroundColor = '#fff';
     });
 });
+
+const erase = document.querySelector('.erase');
+
+erase.addEventListener('click', () => {
+    elements.forEach((element) => {
+        element.addEventListener('mouseover', () => {
+            element.style.backgroundColor = '#fff';
+        });
+    });
+});
