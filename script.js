@@ -45,3 +45,11 @@ erase.addEventListener('click', () => {
         });
     });
 });
+
+reset.addEventListener('click', () => {
+    elements.forEach((element) => {
+        element.addEventListener('mouseover', () => {
+            element.style.backgroundColor = randomColorGenerator();
+        });
+    });
+});
