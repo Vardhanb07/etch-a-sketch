@@ -10,18 +10,15 @@ body {
 .container {
     display : flex;
     flex-direction: column;
-    gap : 2px;
     justify-content: center;
     align-items: center;
     border : 4px solid white;
     border-radius: 2px;
-    max-width: 980px;
-    max-height: 980px;
-    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
 }
 .head { 
     display : flex;
-    gap : 2px;
 }
 .head > .element {
     width : 30px;
