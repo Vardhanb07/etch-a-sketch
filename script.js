@@ -53,3 +53,12 @@ reset.addEventListener('click', () => {
         });
     });
 });
+
+const resize = document.querySelector('.resize');
+
+let size;
+
+resize.addEventListener('click', () => {
+    size = Number(prompt('Enter'));
+});
+
