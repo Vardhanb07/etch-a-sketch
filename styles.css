@@ -23,7 +23,7 @@ body {
     display : flex;
     gap : 2px;
 }
-.head > div {
+.head > .element {
     width : 30px;
     height : 30px;
     background-color: #fff;
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     gap : 30px;
 }
-.dimension > button{
+.resize > button{
     border : 0px solid #fff;
     font-size: 36px;
     border-radius: 8px;
